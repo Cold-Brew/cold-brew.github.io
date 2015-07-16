@@ -1,12 +1,44 @@
-body {
-    
-}
-
 .row-padding {
-    margin-top: 40px;
+    margin-top: 60px;
     height: 100%;
 }
 
-.header-image {
-    width: 400px;
+/* Don't Change - Positioning */
+.absoluteCenter {
+ margin:auto;
+ position:relative;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+}
+
+/* Don't Change - Positioning */
+.absoluteCenterBottom {
+ margin:auto;
+ position:relative;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+}
+
+/* Sizing */
+img.absoluteCenter {
+ max-height:30%;
+ max-width:30%;
+}
+
+/* Sizing */
+img.absoluteCenterBottom {
+ max-height:20%;
+ max-width:20%;
+}
+
+h1, h5 {
+    color: #FFFFFF;
+}
+
+.filter-container {
+    margin-top: 150px;
 }
