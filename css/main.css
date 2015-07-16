@@ -1,7 +1,12 @@
 body {
+    
 }
 
 .row-padding {
     margin-top: 40px;
     height: 100%;
+}
+
+.header-image {
+    width: 400px;
 }
