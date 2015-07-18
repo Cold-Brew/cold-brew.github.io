@@ -42,3 +42,20 @@ h1, h5 {
 .filter-container {
     margin-top: 150px;
 }
+
+nav ul a {
+    color: #f44336;
+}
+
+nav a {
+    color: #f44336;
+}
+
+nav .brand-logo {
+    color: #f44336;
+}
+
+.logo-image {
+    height: 50px;
+    margin: 5px;
+}

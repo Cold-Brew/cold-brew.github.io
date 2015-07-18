@@ -4,7 +4,7 @@
 			<title>{{ page.title }}</title>
             
             <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
-            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
             <!-- Compiled and minified CSS -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
             
@@ -16,9 +16,9 @@
             
 		</head>
 		<body class="red">
-            <nav class="red">
+            <nav class="white">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Logo</a>
+                    <a href="#" class="brand-logo"><img class="logo-image" src="/assets/logo.png"></a>
                     <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="/">Home</a></li>
@@ -41,11 +41,11 @@
 			</div><!-- /.container -->
 			<footer>
 			</footer>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            
             <!-- Compiled and minified JavaScript -->
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
             
-            <script async>
+            <script type="text/javascript">
                 $(document).ready(function(){
                     $(".button-collapse").sideNav();
                 });
