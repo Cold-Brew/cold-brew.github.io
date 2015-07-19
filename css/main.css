@@ -35,24 +35,8 @@ img.absoluteCenterBottom {
  max-width:20%;
 }
 
-h1, h5 {
-    color: #FFFFFF;
-}
-
 .filter-container {
     margin-top: 150px;
-}
-
-nav ul a {
-    color: #000000;
-}
-
-nav a {
-    color: #000000;
-}
-
-nav .brand-logo {
-    color: #000000;
 }
 
 .logo-image {
@@ -60,12 +44,8 @@ nav .brand-logo {
     margin: 10px;
 }
 
-div.valign-wrapper.header-logo {
-    height: 60vh;
-}
-
 p.flow-text.emerald {
-    color: #FFF;
+    color: #000;
 }
 
 nav {
@@ -77,11 +57,6 @@ nav.top-nav {
     box-shadow: none;
 }
 
-nav.top-nav a.page-title {
-    line-height: 122px;
-    font-size: 48px;
-}
-
 .mt-header {
     margin-top: 100px;
 }
@@ -89,4 +64,14 @@ nav.top-nav a.page-title {
 .main-header-row {
     padding-top: 100px;
     background-color: #1DE9B6;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      .mt-header {
+        margin-top: 50px;
+      }
 }
