@@ -45,7 +45,7 @@ img.absoluteCenterBottom {
 }
 
 p.flow-text.emerald {
-    color: #fff;
+    color: #555;
 }
 
 nav {
@@ -67,9 +67,16 @@ nav.top-nav {
     margin-bottom: 0;
 }
 
-.second-row {
+.light-row {
     background-color: #4FF7CA;
     padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.dark-row {
+    background-color: #1DE9B6;
+    padding-top: 50px;
+    margin-bottom: 0;
 }
 
 /* Portrait and Landscape */
