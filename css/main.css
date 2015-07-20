@@ -25,8 +25,8 @@
 
 /* Sizing */
 img.absoluteCenter {
- max-height:30%;
- max-width:30%;
+ max-height:50%;
+ max-width:50%;
 }
 
 /* Sizing */
@@ -44,8 +44,8 @@ img.absoluteCenterBottom {
     margin: 10px;
 }
 
-p.flow-text.emerald {
-    color: #555;
+p.flow-text.black {
+    color: #000;
 }
 
 nav {
@@ -65,6 +65,19 @@ nav.top-nav {
     padding-top: 100px;
     background-color: #1DE9B6;
     margin-bottom: 0;
+    height: 100vh;
+}
+
+.secondary-row {
+    height: 100vh;
+}
+
+.section-text {
+    margin-top: 100px;
+}
+
+.section-image {
+    margin-top: 100px;
 }
 
 .light-row {
