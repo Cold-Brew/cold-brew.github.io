@@ -31,8 +31,8 @@ img.absoluteCenter {
 
 /* Sizing */
 img.absoluteCenterBottom {
- max-height:20%;
- max-width:20%;
+ max-height:30%;
+ max-width:30%;
 }
 
 .filter-container {
