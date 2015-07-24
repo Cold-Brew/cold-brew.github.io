@@ -74,7 +74,6 @@ nav.top-nav {
 }
 
 .secondary-row {
-    height: 100vh;
 }
 
 .section-text {
@@ -95,6 +94,22 @@ nav.top-nav {
     background-color: #1DE9B6;
     padding-top: 50px;
     margin-bottom: 0;
+}
+
+.icon-blue {
+    color: #03A9F4
+}
+
+.icon-orange {
+    color: #FF5722;
+}
+
+.icon-pink {
+    color: #E91E63;
+} 
+
+.icon-green {
+    color: #00E676;
 }
 
 /* Portrait and Landscape */
