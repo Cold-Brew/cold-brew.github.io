@@ -44,12 +44,17 @@ img.absoluteCenterBottom {
     margin: 10px;
 }
 
-p.flow-text.black {
-    color: #000;
+h4 {
+    color: #fff;
+}
+
+h1 {
+    font-size: 220px;  
+    font-weight: 200;
 }
 
 nav {
-    background-color: #4FF7CA;
+    background-color: #000;
 }
 
 nav.top-nav {
@@ -63,9 +68,9 @@ nav.top-nav {
 
 .main-header-row {
     padding-top: 100px;
-    background-color: #1DE9B6;
+    background-color: #000;
     margin-bottom: 0;
-    height: 100vh;
+    height: 80vh;
 }
 
 .secondary-row {
@@ -81,7 +86,7 @@ nav.top-nav {
 }
 
 .light-row {
-    background-color: #4FF7CA;
+    background-color: #03A9F4;
     padding-top: 50px;
     margin-bottom: 0;
 }
