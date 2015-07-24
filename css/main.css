@@ -105,6 +105,11 @@ nav.top-nav {
       .mt-header {
         margin-top: 50px;
       }
+      
+      h1 {
+        font-size: 120px;  
+        font-weight: 200;
+      }
 }
 
 @media only screen 
@@ -113,6 +118,11 @@ nav.top-nav {
   and (-webkit-min-device-pixel-ratio: 2) {
       .mt-header {
         margin-top: 50px;
+      }
+      
+      h1 {
+        font-size: 120px;  
+        font-weight: 200;
       }
 }
 
@@ -123,5 +133,10 @@ nav.top-nav {
   and (-webkit-min-device-pixel-ratio: 2) { 
       .mt-header {
         margin-top: 50px;
+      }
+      
+      h1 {
+        font-size: 120px;  
+        font-weight: 200;
       }
 }
