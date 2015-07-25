@@ -48,8 +48,17 @@ h4 {
     color: #fff;
 }
 
-h1 {
+p {
+    font-size: 18px;
+}
+
+.h1-big {
     font-size: 220px;  
+    font-weight: 200;
+}
+
+.h1-small {
+    font-size: 46px;  
     font-weight: 200;
 }
 
@@ -91,7 +100,7 @@ nav.top-nav {
 }
 
 .dark-row {
-    background-color: #1DE9B6;
+    background-color: #4CAF50;
     padding-top: 50px;
     margin-bottom: 0;
 }
@@ -121,7 +130,7 @@ nav.top-nav {
         margin-top: 50px;
       }
       
-      h1 {
+      .h1-big {
         font-size: 120px;  
         font-weight: 200;
       }
@@ -145,7 +154,7 @@ nav.top-nav {
         margin-top: 50px;
       }
       
-      h1 {
+      .h1-big {
         font-size: 120px;  
         font-weight: 200;
       }
@@ -170,7 +179,7 @@ nav.top-nav {
         margin-top: 50px;
       }
       
-      h1 {
+      .h1-big {
         font-size: 120px;  
         font-weight: 200;
       }
