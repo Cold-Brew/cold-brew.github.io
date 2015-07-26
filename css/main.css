@@ -57,9 +57,22 @@ p {
     font-weight: 200;
 }
 
+.h1-medium {
+    font-size: 72px;  
+    font-weight: 200;
+}
+
 .h1-small {
     font-size: 46px;  
     font-weight: 200;
+}
+
+.h1-small-black {
+    font-size: 46px;  
+    font-weight: 200;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
 }
 
 nav {
@@ -105,6 +118,13 @@ nav.top-nav {
     margin-bottom: 0;
 }
 
+.orange-row {
+    background-color: #FF5722;
+    padding-top: 50px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
 .icon-blue {
     color: #03A9F4;
     -moz-transform: scale(-1, 1);
@@ -133,6 +153,22 @@ nav.top-nav {
 
 .right-text {
     text-align: right;
+}
+
+.rocket-div {
+    background: url(/assets/Rolling-Hills-Wide.png) no-repeat;
+    margin-bottom: 0;
+}
+
+.monkey-form {
+    background-color: #FFFFFF;
+    color: #000;
+    margin-bottom: 100px;
+}
+
+.monkey-button {
+    margin: 20px;
+    background-color: #FF5722;
 }
 
 /* Portrait and Landscape */
@@ -206,5 +242,12 @@ nav.top-nav {
       
       .main-header-row {
         height: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+    .h1-big {
+        font-size: 120px;  
+        font-weight: 200;
     }
 }
