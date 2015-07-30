@@ -58,9 +58,11 @@ p {
 }
 
 .h1-big-nav {
-    font-size: 56px;  
+    font-size: 46px;  
     font-weight: 200;
-    color: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
 }
 
 .h1-medium {
@@ -82,11 +84,11 @@ p {
 }
 
 nav {
-    background-color: #FFF;
+    background-color: #E53935;
 }
 
 nav.top-nav {
-    height: 122px;
+    height: 100px;
     box-shadow: none;
 }
 
@@ -96,7 +98,7 @@ nav.top-nav {
 
 .main-header-row {
     padding-top: 100px;
-    background-color: #FFF;
+    background-color: #B2EBF2;
     margin-bottom: 0;
     height: 80vh;
 }
@@ -113,22 +115,22 @@ nav.top-nav {
 }
 
 .light-row {
-    background-color: #03A9F4;
+    background-color: #80DEEA;
     padding-top: 50px;
     margin-bottom: 0;
 }
 
 .dark-row {
-    background-color: #4CAF50;
+    background-color: #4DD0E1;
     padding-top: 50px;
     margin-bottom: 0;
 }
 
 .orange-row {
-    background-color: #FF5722;
+    background-color: #E0F7FA;
     padding-top: 50px;
     margin-bottom: 0;
-    color: #fff;
+    color: #000;
 }
 
 .icon-blue {
@@ -182,7 +184,11 @@ nav.top-nav {
 }
 
 ul > li > a {
-    color: #000;
+    color: #fff;
+    font-size: 24px;  
+    font-weight: 200;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Portrait and Landscape */
