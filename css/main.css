@@ -57,6 +57,12 @@ p {
     font-weight: 200;
 }
 
+.h1-big-nav {
+    font-size: 56px;  
+    font-weight: 200;
+    color: #000;
+}
+
 .h1-medium {
     font-size: 72px;  
     font-weight: 200;
@@ -76,7 +82,7 @@ p {
 }
 
 nav {
-    background-color: #000;
+    background-color: #FFF;
 }
 
 nav.top-nav {
@@ -90,7 +96,7 @@ nav.top-nav {
 
 .main-header-row {
     padding-top: 100px;
-    background-color: #000;
+    background-color: #FFF;
     margin-bottom: 0;
     height: 80vh;
 }
@@ -173,6 +179,10 @@ nav.top-nav {
 
 .monkey-button:hover {
     background-color: #00E676;
+}
+
+ul > li > a {
+    color: #000;
 }
 
 /* Portrait and Landscape */
