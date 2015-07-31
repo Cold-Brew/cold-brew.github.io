@@ -102,9 +102,6 @@ nav.top-nav {
     margin-bottom: 0;
 }
 
-.secondary-row {
-}
-
 .section-text {
     margin-top: 100px;
 }
@@ -200,19 +197,18 @@ ul > li > a {
       }
       
       .h1-big {
-        font-size: 100px;  
-        font-weight: 200;
+        font-size: 100px; 
+      }
+      
+      .h1-big-nav {
+        font-size: 36px;
       }
       
       /* Sizing */
       img.absoluteCenter {
-        max-height:80%;
-        max-width:80%;
+        max-height:60%;
+        max-width:60%;
       }
-      
-      .main-header-row {
-        height: 400px;
-    }
 }
 
 @media only screen 
@@ -225,18 +221,17 @@ ul > li > a {
       
       .h1-big {
         font-size: 100px;  
-        font-weight: 200;
+      }
+      
+      .h1-big-nav {
+        font-size: 36px;
       }
       
       /* Sizing */
       img.absoluteCenter {
-        max-height:80%;
-        max-width:80%;
+        max-height:60%;
+        max-width:60%;
       }
-      
-      .main-header-row {
-        height: 400px;
-    }
 }
 
 /* Portrait and Landscape */
@@ -249,24 +244,22 @@ ul > li > a {
       }
       
       .h1-big {
-        font-size: 100px;  
-        font-weight: 200;
+        font-size: 100px; 
+      }
+      
+      .h1-big-nav {
+        font-size: 36px;
       }
       
       /* Sizing */
       img.absoluteCenter {
-        max-height:80%;
-        max-width:80%;
+        max-height:60%;
+        max-width:60%;
       }
-      
-      .main-header-row {
-        height: 400px;
-    }
 }
 
 @media (max-width: 700px) {
     .h1-big {
-        font-size: 90px;  
-        font-weight: 200;
+        font-size: 90px; 
     }
 }
