@@ -91,6 +91,10 @@ p {
     padding: 10px;
 }
 
+.left-push {
+    margin-left: 50px;
+}
+
 .h5-slider {
     font-weight: 300;
     color: #000;
@@ -283,5 +287,9 @@ ul > li > a {
 @media (max-width: 700px) {
     .h1-big {
         font-size: 90px; 
+    }
+    
+    .h3-slider {
+        font-size: 24px;
     }
 }
