@@ -67,7 +67,7 @@ p {
 
 .h1-medium {
     font-size: 72px;  
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .h1-small {
@@ -81,6 +81,28 @@ p {
     color: #000;
     margin: 10px;
     padding: 10px;
+}
+
+.h3-slider {
+    display:inline-block;
+    font-weight: 200;
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.h5-slider {
+    font-weight: 300;
+    color: #000;
+    
+}
+
+.slider {
+    background-color: #B2EBF2;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #E53935;
 }
 
 nav {
@@ -97,7 +119,7 @@ nav.top-nav {
 }
 
 .main-header-row {
-    padding-top: 100px;
+    padding-top: 20px;
     background-color: #B2EBF2;
     margin-bottom: 0;
 }
