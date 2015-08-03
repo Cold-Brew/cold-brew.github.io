@@ -106,16 +106,21 @@ p {
 }
 
 .slider .indicators .indicator-item.active {
-    background-color: #E53935;
+    background-color: #46C0E2 ;
 }
 
 nav {
-    background-color: #E53935;
+    background-color: #46C0E2;
 }
 
 nav.top-nav {
     height: 100px;
     box-shadow: none;
+}
+
+.nav-logo-img {
+    height: 100px;
+    padding: 20px;
 }
 
 .mt-header {
